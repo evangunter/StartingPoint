@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18016a5aacef4a78a3ce31dcab239e3a" Name="Diagram1">
+        <EntityTypeShape EntityType="StartingPointModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.Application" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.AspNetRole" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.AspNetUser" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.AuthenticationToken" Width="1.5" PointX="7.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.Household" Width="1.5" PointX="10" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.LookupCategory" Width="1.5" PointX="7.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.LookupCategoryValue" Width="1.5" PointX="10" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StartingPointModel.Person" Width="1.5" PointX="12.25" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="StartingPointModel.FK_Applications_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_AuthenticationTokens_Applications" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_AuthenticationToken_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_AuthenticationTokens_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_Persons_Households" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_LookupCategoryValues_LookupCategorys" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_Persons_LookupCategoryValues" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.FK_Persons_LookupCategoryValues1" ManuallyRouted="false" />
+        <AssociationConnector Association="StartingPointModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
